@@ -263,7 +263,7 @@ btn3.addEventListener('click', e => {
     show.innerHTML = `
         <div class="comment-progress mt-5 text-center">
                 <div class="row">
-                    <div class="col-lg-3 mt-3">
+                    <div class="col-lg-3 mt-3 mb-4">
                         <h2 class="font-weight-bolder">4.55</h2>
                         <span>
                             <i class="fa fa-star text-warning"></i>

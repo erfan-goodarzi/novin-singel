@@ -113,28 +113,45 @@ nav {
 }
 
 @media (max-width: 575.98px) {
+  nav {
+    width: 115%;
+    height: 16vh;
+  }
   .btn-comments {
     overflow: scroll;
   }
   .btn-comments .btn-group {
     width: 155% !important;
   }
+  .img-head img {
+    margin-right: 19px;
+  }
+  .header-top span {
+    margin-left: -1rem !important;
+  }
+  .header-title p {
+    width: 116%;
+  }
   .comments .comment-title p {
     width: 117%;
   }
   .comments .comment-card .card {
-    width: 115% !important;
+    width: 126% !important;
   }
   .comments .commnets-comment {
-    width: 114% !important;
+    width: 128% !important;
+  }
+  .comment-title {
+    width: 103%;
   }
   #call {
     text-align: center;
-    width: 114%;
+    width: 128%;
     padding-bottom: 2rem;
   }
   .btn-grouping {
     width: 97%;
+    right: -40px;
     bottom: 0;
     z-index: 2;
   }
@@ -147,14 +164,23 @@ nav {
     width: 46%;
   }
   .comment-progress {
-    width: 114%;
+    width: 127%;
   }
   .comment-text {
     width: 63% !important;
     margin-top: -27px !important;
   }
   .question {
-    width: 116%;
+    width: 126%;
+  }
+  .header-btn {
+    margin-left: 73px;
+  }
+  .learning .col-lg-9 .card {
+    width: 111%;
+  }
+  .comment-post {
+    width: 129%;
   }
 }
 
