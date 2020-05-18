@@ -1,0 +1,285 @@
+nav {
+    height: 10vh;
+}
+
+.badge {
+    background: #bce0ff;
+    padding: 8px 17px;
+    font-size: 12px;
+
+}
+
+.header-btn {
+    button {
+        background: rgb(236, 64, 106);
+    }
+}
+
+.head-icon {
+    a {
+        padding-right: 9px;
+        font-size: 23px;
+    }
+}
+
+
+.learning {
+
+    .icon {
+        font-size: 32px;
+        padding-left: 19px;
+        margin-right: -12px;
+    }
+}
+
+.detail {
+    width: 118%;
+    margin-right: -13px;
+}
+
+
+.main-learn {
+    ul {
+        padding-right: 0px;
+        margin-right: 5px;
+
+        li {
+            background-color: none !important;
+            border: none !important;
+            padding: 0;
+
+            P {
+                color: #6c757d;
+            }
+        }
+    }
+
+}
+
+.comments {
+    .btn-group {
+        button {
+            border-radius: 0 !important;
+            -webkit-border-radius: 0 !important;
+            -moz-border-radius: 0 !important;
+            -ms-border-radius: 0 !important;
+            -o-border-radius: 0 !important;
+        }
+    }
+
+    .comment-title {
+        p {
+            width: 104%;
+            text-align: right;
+            line-height: 1.7;
+
+            span {
+                padding: 2px 5px;
+            }
+        }
+    }
+
+    .phone-icon {
+        font-size: 31px;
+        background: #ffcece;
+        padding: 0px 12px;
+        border-radius: 5px;
+    }
+
+    .comment-text {
+        width: 26%;
+        margin-top: -25px;
+        margin-right: 13px;
+        padding-bottom: 1rem;
+    }
+}
+
+.commnets-comment {
+    .col-lg-6 {
+        .card {
+            &::after {
+                content: '';
+                background: #ffbf00;
+                width: 89%;
+                height: 9px;
+                position: absolute;
+                top: 275px;
+                border-radius: 22px;
+                right: 18px;
+                z-index: -1;
+            }
+        }
+    }
+}
+
+.question {
+    .btn-group {
+        button {
+            font-size: 21px;
+
+            &:hover {
+                background: #6c757d;
+                color: #fff;
+            }
+
+            &:nth-child(1) {
+                border-bottom-right-radius: 8px !important;
+                border-top-right-radius: 8px !important;
+                background: rgb(255, 60, 109);
+                color: #fff;
+            }
+
+            &:nth-child(2) {
+                border-bottom-left-radius: 8px !important;
+                border-top-left-radius: 8px !important;
+            }
+        }
+    }
+
+    .card {
+        background: #eeeeee;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+    .btn-comments {
+        overflow: scroll;
+
+        .btn-group {
+            width: 155% !important;
+        }
+    }
+
+    .comments {
+        .comment-title p {
+            width: 117%;
+        }
+
+        .comment-card {
+            .card {
+                width: 115% !important;
+            }
+        }
+
+        .commnets-comment {
+            width: 114% !important;
+        }
+    }
+
+
+
+    #call {
+        text-align: center;
+        width: 114%;
+        padding-bottom: 2rem;
+    }
+
+    .btn-grouping {
+        width: 97%;
+
+        bottom: 0;
+        z-index: 2;
+
+        button {
+            &:first-child {
+                width: 44%;
+                margin-bottom: 19px;
+                margin-top: 20px;
+            }
+
+            &:last-child {
+                width: 46%;
+            }
+        }
+    }
+
+    .comment-progress {
+        width: 114%;
+    }
+
+    .comment-text {
+        width: 63% !important;
+        margin-top: -27px !important;
+    }
+    .question{
+        width: 116%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    nav {
+        height: 6vh;
+    }
+
+    .header-btn {
+        display: flex !important;
+        margin-bottom: 3rem;
+    }
+
+    .btn-comments {
+        .btn-group {
+            width: 134% !important;
+        }
+    }
+
+    .showing {
+        width: 137%;
+    }
+
+    .comment-card {
+        .card {
+            width: 100% !important;
+        }
+    }
+
+    .commnets-comment {
+        .card {
+            &::after {
+                top: 226px !important;
+                right: 25px !important;
+            }
+        }
+    }
+
+    #call {
+        margin-bottom: 6rem !important;
+        width: 139%;
+    }
+
+    .btn-grouping {
+        width: 98%;
+
+        button {
+            &:first-child {
+                width: 49%;
+                margin-bottom: 19px;
+                margin-top: 20px;
+            }
+
+            &:last-child {
+                width: 45%;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    nav {
+        height: 6vh;
+    }
+
+    .commnets-comment {
+        .card {
+            &::after {
+                top: 321px !important;
+
+            }
+        }
+    }
+}
