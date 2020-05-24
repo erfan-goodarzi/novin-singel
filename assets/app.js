@@ -19,136 +19,144 @@ btn1.addEventListener('click', e => {
     btn3.className = 'btn btn-light text-secondary order-3'
     btn4.className = 'btn btn-light text-secondary order-4'
     show.innerHTML = `
-        <div class="comment-title text-right mt-5">
-                    <p class="text-secondary">چه زمانی یک کسب و کار می‌تواند به موفقیت‌های بزرگ دست پیدا کند؟ وقتی
-                        که ستون‌های کار خود را
-                        درست بنا کرده باشد. اگر با این جمله موافق هستید، پس فقط یک حرف دیگر باقی می‌ماند: <span
-                            class="text-dark font-weight-bolder bg-warning">
-                            تحقیق
-                            کلمات کلیدی، یک ستون اصلی برای هر کسب و کار آنلاینی است.
-                        </span> در این دوره، شما یاد می‌گیرید که
-                        چطور این تحقیق را به صورت اصولی انجام دهید و به کمک آن، نتایجی فوق‌العاده بگیرید.
+    <div class="comment-title text-right mt-5">
+    <p class="text-secondary">چه زمانی یک کسب و کار می‌تواند به موفقیت‌های بزرگ دست پیدا کند؟
+        وقتی
+        که ستون‌های کار خود را
+        درست بنا کرده باشد. اگر با این جمله موافق هستید، پس فقط یک حرف دیگر باقی می‌ماند: <span
+            class="text-dark font-weight-bolder bg-warning">
+            تحقیق
+            کلمات کلیدی، یک ستون اصلی برای هر کسب و کار آنلاینی است.
+        </span> در این دوره، شما یاد می‌گیرید که
+        چطور این تحقیق را به صورت اصولی انجام دهید و به کمک آن، نتایجی فوق‌العاده بگیرید.
 
-                    </p>
+    </p>
 
-                    <br>
-                    <br>
-                    <h4>این دوره برای چه کسانی مناسب است؟</h4>
-                    <p class="text-secondary">تحقیق کلمات کلیدی می‌تواند یک تاثیر عمیق و ماندگار روی رشد هر کسب و
-                        کاری داشته باشد. البته به شرط آنکه درست انجام شود و از اطلاعات آن، درست استفاده شود. هر کسی
-                        می‌تواند از این تحقیق استفاده کند تا تصمیم‌های بهتری در کار خود بگیرد و در نتیجه، تاثیرگذاری
-                        بیشتری داشته باشد.</p>
+    <br>
+    <br>
+    <h4>این دوره برای چه کسانی مناسب است؟</h4>
+    <p class="text-secondary">تحقیق کلمات کلیدی می‌تواند یک تاثیر عمیق و ماندگار روی رشد هر کسب
+        و
+        کاری داشته باشد. البته به شرط آنکه درست انجام شود و از اطلاعات آن، درست استفاده شود. هر
+        کسی
+        می‌تواند از این تحقیق استفاده کند تا تصمیم‌های بهتری در کار خود بگیرد و در نتیجه،
+        تاثیرگذاری
+        بیشتری داشته باشد.</p>
 
-                    <p>در واقع، اگر بخواهیم ساده بگوییم: <span class="font-weight-bolder"> چه شما یک کسب و کار
-                            اینترنتی دارید و چه یک متخصص بازاریابی دیجیتال هستید (یا می‌خواهید باشید)، تحقیق کلمات
-                            کلیدی جزو واجبات کار شماس</span> .</p>
-                    <br>
-                    <br>
-                    <h4>تحقیق کلمات کلیدی چیست؟</h4>
-                    <p class="text-secondary">اگر بخواهیم ساده توضیح بدهیم، به فرآیند بدست آوردن کلمات کلیدی مرتبط
-                        با یک کسب و کار و آمار مرتبط با آنها، اصطلاحاً تحقیق کلمات کلیدی می‌گویند.</p>
+    <p>در واقع، اگر بخواهیم ساده بگوییم: <span class="font-weight-bolder"> چه شما یک کسب و کار
+            اینترنتی دارید و چه یک متخصص بازاریابی دیجیتال هستید (یا می‌خواهید باشید)، تحقیق
+            کلمات
+            کلیدی جزو واجبات کار شماس</span> .</p>
+    <br>
+    <br>
+    <h4>تحقیق کلمات کلیدی چیست؟</h4>
+    <p class="text-secondary">اگر بخواهیم ساده توضیح بدهیم، به فرآیند بدست آوردن کلمات کلیدی
+        مرتبط
+        با یک کسب و کار و آمار مرتبط با آنها، اصطلاحاً تحقیق کلمات کلیدی می‌گویند.</p>
 
-                    <p class="text-secondary">حالا حتماً می‌پرسید که کلمات کلیدی چه هستند. کلمات کلیدی آن کلمات و
-                        عبارت‌هایی هستند که کاربران برای پیدا کردن یک کسب و کار (در گوگل) جستجو می‌کنند. کلماتی که
-                        برای یک کسب و کار، اهمیّتی حیاتی دارند.
-                    </p>
-                </div>
-                <div class="comment-card">
-                    <div style="width: 64%;" class="card mx-auto mt-5 text-center">
-                        <div class="card-body">
-                            <img src="assets/img/content-image.jpg" alt="" class="img-fluid">
-                            <p class="card-text">یک نمونه ساده از تحقیق کلمات کلیدی و اطلاعات مرتبط با آن</p>
-                        </div>
-                    </div>
-                </div>
-                 <div class="commnets-comment text-right mt-5">
-                    <div class="commnets-comment text-right mt-5">
-                    <h4>نظرات دوره</h4>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="card mt-4">
-                                <div class="card-body">
-                                    <div class="card-title d-flex">
-                                        <span style="font-size: 47px; line-height: 1.3;"><i
-                                                class="fa fa-user-circle-o text-secondary"></i></span>
-                                        <h5 class="pr-3 mt-3">فاطمه محمدی</h5>
-                                        <span class="mr-5 mt-3 mr-auto">
-                                            <i class="fa fa-star text-warning"></i>
-                                            <i class="fa fa-star text-warning"></i>
-                                            <i class="fa fa-star text-warning"></i>
-                                            <i class="fa fa-star text-warning"></i>
-                                            <i class="fa fa-star text-warning"></i>
-                                        </span>
-
-                                    </div>
-                                    <p class="mt-3 text-secondary">
-                                        من تهیه این دوره رو به تمام کسانی که به تولید محتوا علاقمند هستند یا
-                                        وب‌سایت
-                                        دارند و قصد دارن که رتبه خوبی توی موتورهای جستجو بگیرند، توصیه میکنم.
-                                        عالی
-                                        بود! واقعاً من که لذت بردم، یک کلاس کامل و کاربردی. ارزش چند بار دیدن رو
-                                        داره. ممنون از نوین و استاد دوره، جناب رهبری بابت کیفیت آموزش‌ها.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="card mt-4">
-                                <div class="card-body">
-                                    <div class="card-title d-flex">
-                                        <span style="font-size: 47px; line-height: 1.3;"><i
-                                                class="fa fa-user-circle-o text-secondary"></i></span>
-                                        <h5 class="pr-3 mt-3">فاطمه محمدی</h5>
-                                        <span class="mr-5 mt-3 mr-auto">
-                                            <i class="fa fa-star text-warning"></i>
-                                            <i class="fa fa-star text-warning"></i>
-                                            <i class="fa fa-star text-warning"></i>
-                                            <i class="fa fa-star text-warning"></i>
-                                            <i class="fa fa-star text-warning"></i>
-                                        </span>
-
-                                    </div>
-                                    <p class="mt-3 text-secondary">
-                                        من تهیه این دوره رو به تمام کسانی که به تولید محتوا علاقمند هستند یا
-                                        وب‌سایت
-                                        دارند و قصد دارن که رتبه خوبی توی موتورهای جستجو بگیرند، توصیه میکنم.
-                                        عالی
-                                        بود! واقعاً من که لذت بردم، یک کلاس کامل و کاربردی. ارزش چند بار دیدن رو
-                                        داره. ممنون از نوین و استاد دوره، جناب رهبری بابت کیفیت آموزش‌ها.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="card mt-4">
-                                <div class="card-body">
-                                    <div class="card-title d-flex">
-                                        <span style="font-size: 47px; line-height: 1.3;"><i
-                                                class="fa fa-user-circle-o text-secondary"></i></span>
-                                        <h5 class="pr-3 mt-3">فاطمه محمدی</h5>
-                                        <span class="mr-5 mt-3 mr-auto">
-                                            <i class="fa fa-star text-warning"></i>
-                                            <i class="fa fa-star text-warning"></i>
-                                            <i class="fa fa-star text-warning"></i>
-                                            <i class="fa fa-star text-warning"></i>
-                                            <i class="fa fa-star text-warning"></i>
-                                        </span>
-
-                                    </div>
-                                    <p class="mt-3 text-secondary">
-                                        من تهیه این دوره رو به تمام کسانی که به تولید محتوا علاقمند هستند یا
-                                        وب‌سایت
-                                        دارند و قصد دارن که رتبه خوبی توی موتورهای جستجو بگیرند، توصیه میکنم.
-                                        عالی
-                                        بود! واقعاً من که لذت بردم، یک کلاس کامل و کاربردی. ارزش چند بار دیدن رو
-                                        داره. ممنون از نوین و استاد دوره، جناب رهبری بابت کیفیت آموزش‌ها.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+    <p class="text-secondary">حالا حتماً می‌پرسید که کلمات کلیدی چه هستند. کلمات کلیدی آن کلمات
+        و
+        عبارت‌هایی هستند که کاربران برای پیدا کردن یک کسب و کار (در گوگل) جستجو می‌کنند. کلماتی
+        که
+        برای یک کسب و کار، اهمیّتی حیاتی دارند.
+    </p>
+</div>
+<div class="comment-card">
+    <div style="width: 64%;" class="card mx-auto mt-5 text-center">
+        <div class="card-body">
+            <img src="assets/img/content-image.jpg" alt="" class="img-fluid">
+            <p class="card-text">یک نمونه ساده از تحقیق کلمات کلیدی و اطلاعات مرتبط با آن</p>
+        </div>
+    </div>
+</div>
+<div class="commnets-comment text-right mt-5">
+    <h4>نظرات دوره</h4>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card mt-4">
+                <div class="card-body">
+                    <div class="card-title d-flex">
+                        <span style="font-size: 47px; line-height: 1.3;"><i
+                                class="fa fa-user-circle-o text-secondary"></i></span>
+                        <h5 class="pr-3 mt-3">فاطمه محمدی</h5>
+                        <span class="mr-5 mt-3 mr-auto">
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                        </span>
 
                     </div>
-                </div>`
+                    <p class="mt-3 text-secondary">
+                        من تهیه این دوره رو به تمام کسانی که به تولید محتوا علاقمند هستند یا
+                        وب‌سایت
+                        دارند و قصد دارن که رتبه خوبی توی موتورهای جستجو بگیرند، توصیه میکنم.
+                        عالی
+                        بود! واقعاً من که لذت بردم، یک کلاس کامل و کاربردی. ارزش چند بار دیدن رو
+                        داره. ممنون از نوین و استاد دوره، جناب رهبری بابت کیفیت آموزش‌ها.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card mt-4">
+                <div class="card-body">
+                    <div class="card-title d-flex">
+                        <span style="font-size: 47px; line-height: 1.3;"><i
+                                class="fa fa-user-circle-o text-secondary"></i></span>
+                        <h5 class="pr-3 mt-3">فاطمه محمدی</h5>
+                        <span class="mr-5 mt-3 mr-auto">
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                        </span>
+
+                    </div>
+                    <p class="mt-3 text-secondary">
+                        من تهیه این دوره رو به تمام کسانی که به تولید محتوا علاقمند هستند یا
+                        وب‌سایت
+                        دارند و قصد دارن که رتبه خوبی توی موتورهای جستجو بگیرند، توصیه میکنم.
+                        عالی
+                        بود! واقعاً من که لذت بردم، یک کلاس کامل و کاربردی. ارزش چند بار دیدن رو
+                        داره. ممنون از نوین و استاد دوره، جناب رهبری بابت کیفیت آموزش‌ها.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card mt-4">
+                <div class="card-body">
+                    <div class="card-title d-flex">
+                        <span style="font-size: 47px; line-height: 1.3;"><i
+                                class="fa fa-user-circle-o text-secondary"></i></span>
+                        <h5 class="pr-3 mt-3">فاطمه محمدی</h5>
+                        <span class="mr-5 mt-3 mr-auto">
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                        </span>
+
+                    </div>
+                    <p class="mt-3 text-secondary">
+                        من تهیه این دوره رو به تمام کسانی که به تولید محتوا علاقمند هستند یا
+                        وب‌سایت
+                        دارند و قصد دارن که رتبه خوبی توی موتورهای جستجو بگیرند، توصیه میکنم.
+                        عالی
+                        بود! واقعاً من که لذت بردم، یک کلاس کامل و کاربردی. ارزش چند بار دیدن رو
+                        داره. ممنون از نوین و استاد دوره، جناب رهبری بابت کیفیت آموزش‌ها.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+`
 
 });
 

@@ -119,6 +119,7 @@ nav {
   }
   .btn-comments {
     overflow: scroll;
+    width: 108%;
   }
   .btn-comments .btn-group {
     width: 155% !important;
@@ -136,21 +137,24 @@ nav {
     width: 117%;
   }
   .comments .comment-card .card {
-    width: 126% !important;
+    width: 110% !important;
   }
   .comments .commnets-comment {
-    width: 128% !important;
+    width: 110% !important;
+  }
+  .comments .commnets-comment .card::after {
+    top: 321px;
   }
   .comment-title {
-    width: 103%;
+    width: 97%;
   }
   #call {
     text-align: center;
-    width: 128%;
+    width: 108%;
     padding-bottom: 2rem;
   }
   .btn-grouping {
-    width: 97%;
+    width: 102%;
     right: -40px;
     bottom: 0;
     z-index: 2;
@@ -164,23 +168,39 @@ nav {
     width: 46%;
   }
   .comment-progress {
-    width: 127%;
+    width: 110%;
+  }
+  .comment-progress .bg-light {
+    height: 11vh !important;
+    width: 103%;
   }
   .comment-text {
     width: 63% !important;
     margin-top: -27px !important;
   }
   .question {
-    width: 126%;
+    width: 111%;
+  }
+  .question h5 {
+    margin-bottom: 30px;
   }
   .header-btn {
-    margin-left: 73px;
+    margin-left: 43px;
+  }
+  .learning #card-learn {
+    width: 110%;
   }
   .learning .col-lg-9 .card {
     width: 111%;
   }
+  .learning .main-learn h2 {
+    width: 110% !important;
+  }
+  .learning .main-learn .list-group {
+    margin-right: -1px;
+  }
   .comment-post {
-    width: 129%;
+    width: 110%;
   }
 }
 

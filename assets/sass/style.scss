@@ -147,32 +147,38 @@ nav {
 
 
 @media (max-width: 575.98px) {
-    nav{
+    nav {
         width: 115%;
         height: 16vh;
     }
+
     .btn-comments {
         overflow: scroll;
+        width: 108%;
 
         .btn-group {
             width: 155% !important;
         }
     }
-    .img-head{
-        img{
+
+    .img-head {
+        img {
             margin-right: 19px;
         }
     }
-    .header-top{
-        span{
+
+    .header-top {
+        span {
             margin-left: -1rem !important;
         }
     }
-    .header-title{
-        p{
+
+    .header-title {
+        p {
             width: 116%;
         }
     }
+
     .comments {
         .comment-title p {
             width: 117%;
@@ -180,27 +186,33 @@ nav {
 
         .comment-card {
             .card {
-                width: 126% !important;
+                width: 110% !important;
             }
         }
 
         .commnets-comment {
-            width: 128% !important;
+            width: 110% !important;
+            .card{
+                &::after{
+                    top: 321px;
+                }
+            }
         }
     }
-    .comment-title{
-        width: 103%;
+
+    .comment-title {
+        width: 97%;
     }
 
 
     #call {
         text-align: center;
-        width: 128%;
+        width: 108%;
         padding-bottom: 2rem;
     }
 
     .btn-grouping {
-        width: 97%;
+        width: 102%;
         right: -40px;
         bottom: 0;
         z-index: 2;
@@ -219,28 +231,54 @@ nav {
     }
 
     .comment-progress {
-        width: 127%;
+        width: 110%;
+
+        .bg-light {
+            height: 11vh !important;
+            width: 103%;
+        }
     }
 
     .comment-text {
         width: 63% !important;
         margin-top: -27px !important;
     }
-    .question{
-        width: 126%;
+
+    .question {
+        width: 111%;
+        h5{
+            margin-bottom: 30px;
+        }
     }
-    .header-btn{
-        margin-left: 73px;
+
+    .header-btn {
+        margin-left: 43px;
     }
-    .learning{
-        .col-lg-9{
-            .card{
+
+    .learning {
+        #card-learn {
+            width: 110%;
+        }
+
+        .col-lg-9 {
+            .card {
                 width: 111%;
             }
         }
+
+        .main-learn {
+            h2 {
+                width: 110% !important;
+            }
+
+            .list-group {
+                margin-right: -1px;
+            }
+        }
     }
-    .comment-post{
-        width: 129%;
+
+    .comment-post {
+        width: 110%;
     }
 }
 
