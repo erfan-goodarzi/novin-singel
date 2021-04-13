@@ -113,6 +113,9 @@ nav {
 }
 
 @media (max-width: 575.98px) {
+  section.comments{
+       margin-right: 1rem;
+  }
   nav {
     width: 115%;
     height: 16vh;
@@ -140,7 +143,7 @@ nav {
     width: 110% !important;
   }
   .comments .commnets-comment {
-    width: 110% !important;
+    width: 113% !important;
   }
   .comments .commnets-comment .card::after {
     top: 321px;
@@ -150,11 +153,11 @@ nav {
   }
   #call {
     text-align: center;
-    width: 108%;
+    width: 114%;
     padding-bottom: 2rem;
   }
   .btn-grouping {
-    width: 102%;
+    width: 96%;
     right: -40px;
     bottom: 0;
     z-index: 2;
